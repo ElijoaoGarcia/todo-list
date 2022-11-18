@@ -1,6 +1,6 @@
 # Todo list
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![build status](https://github.com/ElijoaoGarcia/todo-list/actions/workflows/integration.yml/badge.svg)](https://github.com/ElijoaoGarcia/todo-list/actions/workflows/integration.yml)
 
 ## Features
 
