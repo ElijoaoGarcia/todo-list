@@ -1,4 +1,4 @@
-name: dev integration
+name: development integration
 
 on:
   pull_request:
