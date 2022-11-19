@@ -1,8 +1,12 @@
 {
   "name": "todo-list",
-  "private": true,
-  "version": "0.0.1",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "author": {
+    "name": "Elijoao García - Ciudadev"
+  },
+  "repository": "https://github.com/ElijoaoGarcia/todo-list",
   "scripts": {
     "dev": "vite --host --port 3000",
     "lint": "eslint './**/*.{ts,tsx}'",
