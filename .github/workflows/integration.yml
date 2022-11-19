@@ -2,7 +2,7 @@ name: development integration
 
 on:
   pull_request:
-    branches: [develop, master]
+    branches: [develop]
     types: [opened, synchronize]
 
 jobs:
