@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FC } from 'react'
+import React, { FC } from 'react'
 import { BsTrash } from 'react-icons/bs'
 import { Task } from '../App'
 import copy from 'fast-copy'
@@ -14,7 +14,7 @@ const TaskCard: FC<Props> = ({
 }) => {
   const status = task.statusId === 0 ? 'Pending' : 'Done'
 
-  const inputHandler = (e: ChangeEvent<HTMLInputElement>): void => {
+  const inputHandler = (): void => {
     const updatedTask = copy(task)
     updatedTask.statusId = updatedTask.statusId === 0 ? 1 : 0
     onChange(updatedTask)
