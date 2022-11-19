@@ -1,6 +1,6 @@
 # Todo list
 
-[![build status](https://github.com/ElijoaoGarcia/todo-list/actions/workflows/integration.yml/badge.svg)](https://github.com/ElijoaoGarcia/todo-list/actions/workflows/integration.yml)
+[![main integration](https://github.com/ElijoaoGarcia/todo-list/actions/workflows/build.yml/badge.svg)](https://github.com/ElijoaoGarcia/todo-list/actions/workflows/build.yml)
 
 ## Features
 

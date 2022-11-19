@@ -41,7 +41,6 @@ const AddModal: FC<Props> = ({
       onClose={onClose}
       data-testid='add-modal'
       size='sm'
-      className='h-screen'
     >
       <Modal.Header>
         New task

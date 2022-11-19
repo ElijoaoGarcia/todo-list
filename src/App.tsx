@@ -59,7 +59,12 @@ const App = (): JSX.Element => {
     <Layout
       onPressAddButton={() => setAddModal(true)}
     >
-      <h1 className='text-gray-700 text-3xl mb-2'>Tasks</h1>
+      <div className='flex flex-row mb-2 justify-between'>
+        <h1 className='text-gray-700 text-3xl'>Tasks</h1>
+        <a href='https://www.ciudadev.com'>
+          <img src='/js.png' title='Ciudadev' alt='Ciudadev' className='h-10 rounded-full transition-all hover:h-12' />
+        </a>
+      </div>
       <TasksList
         tasks={tasks.filter(filterTasksByStatusId(0))}
         onUpdateTask={updateTask}
